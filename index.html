@@ -260,7 +260,7 @@
        3. Copy the endpoint URL (looks like https://formspree.io/f/xxxxxxxx)
        4. Paste it below, replacing the placeholder
      ================================================================ */
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID_HERE';
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mykbgelk';
   /* ================================================================ */
 
   function validate() {
@@ -277,7 +277,7 @@
   async function submitForm() {
     if (!validate()) return;
 
-    if (FORMSPREE_ENDPOINT.includes('YOUR_FORM_ID_HERE')) {
+    if (FORMSPREE_ENDPOINT.includes('mykbgelk')) {
       alert('⚠️ Please set up your Formspree endpoint first.\n\nOpen this file in a text editor and replace YOUR_FORM_ID_HERE with your actual Formspree form ID.\n\nSee formspree.io to create a free account.');
       return;
     }
